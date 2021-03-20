@@ -117,3 +117,30 @@ p {
   padding-left: 0;
   line-height: 1.5;
 }
+
+@media (max-width: 576px) {
+  .mobile {
+    display: none;
+  }
+  .space {
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .sub-heading,
+  .work-para {
+    text-align: center;
+  }
+  .main {
+    margin-top: 15%;
+  }
+  .primary-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+  }
+}
